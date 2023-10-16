@@ -1,20 +1,22 @@
 ## [Official] NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models (Findings of EMNLP 2023)
 
 **NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models**
-[Jongwoo Ko](https://sites.google.com/view/jongwooko)$^\*$,
-Seungjoon Park$^\*$,
-Yujin Kim,
-Sumyeong Ahn$^\dagger$<br/>,
-Du-Seong Chang,
-Euijai Ahn,
+[Jongwoo Ko](https://sites.google.com/view/jongwooko)$^*$, 
+[Seungjoon Park]()$^*$, 
+Yujin Kim, 
+[Sumyeong Ahn]()$^\dagger$, 
+Du-Seong Chang, 
+Euijai Ahn, 
 [Se-Young Yun](https://osi.kaist.ac.kr/)$^\dagger$<br/>
 \* equal contribution $&nbsp$ $\dagger$ equal advising
 
 
 ## Overview
-```
-In this study, we investigate the behavior of encoder-decoder models by applying decoupled structural pruning separately to the encoder and decoder components. Our findings highlight two insights: (1) the number of decoder layers is the dominant factor for inference speed, and (2) moderate sparsity in the pruned encoder network enhances generation quality. Motivated by these findings, we propose a simple and effective framework, NASH, that narrows the encoder and shortens the decoder networks of encoder-decoder models. Extensive experiments on diverse generation and inference tasks validate the effectiveness of our method in both speedup and generation quality.
-```
+- In this study, we investigate the behavior of encoder-decoder models by applying decoupled structural pruning separately to the encoder and decoder components. 
+- Our findings highlight two insights: (1) the number of decoder layers is the dominant factor for inference speed, and (2) moderate sparsity in the pruned encoder network enhances generation quality. 
+- Motivated by these findings, we propose a simple and effective framework, NASH, that narrows the encoder and shortens the decoder networks of encoder-decoder models. 
+- Extensive experiments on diverse generation and inference tasks validate the effectiveness of our method in both speedup and generation quality.
+
 
 ## Requirements
 Install the necessary packages with: 
@@ -80,7 +82,7 @@ We empirically evaluate the performance of NASH on variuos NLG datasets includin
 
 Notably, in our experiemnts using T5-base, NASH achieves a speedup of 2.5-4.2 times while preserving 95% of the output quality. Our experimental results show that NASH can be unified framework whch is regardless of task difficulty and model type.
 <p align="center">
-<img width="1194" src="https://github.com/jongwooko/NASH-Pruning-Official/files/12911628/main_nlg_renew.1.pdf">
+<img width="1194" src="https://github.com/jongwooko/NASH-Pruning-Official/assets/59277369/5696af03-0ce4-43af-aeb6-77f0e176768f">
 </p>
 
 
