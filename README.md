@@ -1,8 +1,8 @@
 ## [Official] NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models (Findings of EMNLP 2023)
 
 **NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models**
-[Jongwoo Ko](https://sites.google.com/view/jongwooko)$^*$, 
-[Seungjoon Park]()$^*$, 
+[Jongwoo Ko](https://sites.google.com/view/jongwooko)$^\*$, 
+[Seungjoon Park]()$^\*$, 
 Yujin Kim, 
 [Sumyeong Ahn]()$^\dagger$, 
 Du-Seong Chang, 
@@ -83,6 +83,10 @@ We empirically evaluate the performance of NASH on variuos NLG datasets includin
 Notably, in our experiemnts using T5-base, NASH achieves a speedup of 2.5-4.2 times while preserving 95% of the output quality. Our experimental results show that NASH can be unified framework whch is regardless of task difficulty and model type.
 <p align="center">
 <img width="1194" src="https://github.com/jongwooko/NASH-Pruning-Official/assets/59277369/5696af03-0ce4-43af-aeb6-77f0e176768f">
+</p>
+
+<p align="center">
+<img width="1194" src="https://github.com/jongwooko/NASH-Pruning-Official/assets/59277369/6301d7f7-4b7e-4b8e-abde-e7ff3a722ae6">
 </p>
 
 
