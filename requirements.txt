@@ -1,0 +1,14 @@
+transformers==4.12.0
+scipy==1.7.3
+datasets
+scikit-learn==1.0.2
+black
+wandb
+matplotlib
+datasets
+sentencepiece
+nltk
+py7zr
+rouge_score
+evaluate
+tqdm
