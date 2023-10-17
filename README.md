@@ -1,6 +1,6 @@
 ## [Official] NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models (Findings of EMNLP 2023)
 
-**NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models**
+[**NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models**](https://arxiv.org/abs/2310.10054)
 [Jongwoo Ko](https://sites.google.com/view/jongwooko)$^\*$, 
 [Seungjoon Park]()$^\*$, 
 Yujin Kim, 
