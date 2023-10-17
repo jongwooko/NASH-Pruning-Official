@@ -93,6 +93,14 @@ Notably, in our experiemnts using T5-base, NASH achieves a speedup of 2.5-4.2 ti
 ## BibTeX
 If you find this repo useful for your research, please consider citing our paper:
 ```
+@misc{ko2023nash,
+      title={NASH: A Simple Unified Framework of Structured Pruning for Accelerating Encoder-Decoder Language Models}, 
+      author={Jongwoo Ko and Seungjoon Park and Yujin Kim and Sumyeong Ahn and Du-Seong Chang and Euijai Ahn and Se-Young Yun},
+      year={2023},
+      eprint={2310.10054},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Contact
